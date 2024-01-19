@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/output.css" />
   </head>
   <body class="background-homepage">
-    <header class="transition-all ease-in-out duration-300 fixed top-0 inset-x-0 z-50 nav-bg-Gradient">
+    <header class="transition-all ease-in-out duration-300 absolute top-0 inset-x-0 z-50 bg-transparent">
       <div class="flex justify-between container">
         <div>
           <a href="index.html">
@@ -38,28 +38,28 @@
           <span class="w-9 h-1 rounded-full bg-white transition-all origin-bottom-right ease-in-out duration-300"></span>
         </button>
 
-        <button class="hidden burger-menu-close z-[120]" onclick="closeBurgerPopup()">
+        <button class="hidden burger-menu-close z-[120] fixed right-0 top-0" onclick="closeBurgerPopup()">
           <div>
             <img src="temp-asset/static-asset/close.svg" class="w-12" alt="" />
           </div>
         </button>
 
         <div class="burger-menu-popup hidden w-full fixed h-full top-0 right-0 z-[100]" id="popupBurger">
-          <div class="flex flex-col bg-transparent absolute top-0 w-full justify-start items-start container h-full gap-12 py-12">
+          <div class="flex flex-col absolute top-0 w-full items-center container h-full gap-12 py-12 justify-center" style="background-color: rgba(256, 256, 256, 0.85)">
             <a href="index.html">
-              <h3 class="font-outfitRegular text-white text-[24px] bg-joindo-blue-navy text-shadow">Home</h3>
+              <h3 class="font-outfitRegular text-black text-[24px] text-shadow">Home</h3>
             </a>
             <a href="aboutus.html">
-              <h3 class="font-outfitRegular text-white text-[24px] bg-joindo-blue-navy text-shadow">About Us</h3>
+              <h3 class="font-outfitRegular text-black text-[24px] text-shadow">About Us</h3>
             </a>
             <a href="our-business.html">
-              <h3 class="font-outfitRegular text-white text-[24px] bg-joindo-blue-navy text-shadow">Our Business</h3>
+              <h3 class="font-outfitRegular text-black text-[24px] text-shadow">Our Business</h3>
             </a>
             <button onclick="togglePopup(0)">
-              <h3 class="font-outfitRegular text-white text-[24px] bg-joindo-blue-navy text-shadow text-left">Contact Us</h3>
+              <h3 class="font-outfitRegular text-black text-[24px] text-shadow text-left">Contact Us</h3>
             </button>
             <a href="article.html">
-              <h3 class="font-outfitRegular text-white text-[24px] bg-joindo-blue-navy text-shadow">Article</h3>
+              <h3 class="font-outfitRegular text-black text-[24px] text-shadow">Article</h3>
             </a>
           </div>
         </div>
@@ -98,17 +98,17 @@
         </div>
       </div>
     </header>
-    <section class="">
+    <section class="homepage__section">
       <div class="w-full">
-        <div class="grid grid-rows-1 gap-0 grid-cols-2 justify-center w-full">
+        <div class="grid grid-rows-1 gap-0 sm:grid-cols-2 grid-cols-1 justify-center w-full background-OB-kanan-1">
           <div class="w-full">
-            <img src="temp-asset/our-business/kiri-1.svg" alt="" />
+            <img src="temp-asset/our-business/kiri-1.svg" class="w-full" alt="" />
           </div>
           <div class="col-start-1 row-start-2 w-full">
-            <img src="temp-asset/our-business/kiri-2.svg" alt="" />
+            <img src="temp-asset/our-business/kiri-2.svg" class="w-full" alt="" />
           </div>
           <div class="row-span-2 col-start-2 row-start-1 background-OB-kanan-1 w-full pt-20">
-            <div class="flex justify-end items-end gap-6 flex-col text-end pr-[46px] pl-[71px]">
+            <div class="flex sm:justify-end justify-center sm:items-end items-center gap-6 flex-col sm:text-end text-center sm:pr-[46px] sm:pl-[71px] sm:px-0 px-4">
               <img src="temp-asset/static-asset/lit-logo.png" class="" alt="" />
               <h1 class="text-black text-[36px] font-outfitSemiBold">PT. Lab Inovasi Teknologi</h1>
               <p class="text-black font-outfitRegular text-[20px]">
@@ -126,15 +126,15 @@
             <img src="temp-asset/our-business/kanan-1.png" alt="" />
           </div>
         </div>
-        <div class="grid grid-rows-1 gap-0 grid-cols-2 justify-center w-full">
+        <div class="grid grid-rows-1 gap-0 sm:grid-cols-2 grid-cols-1 justify-center w-full">
           <div class="">
-            <img src="temp-asset/our-business/kiri-3.svg" alt="" />
+            <img src="temp-asset/our-business/kiri-3.svg" class="w-full h-full" alt="" />
           </div>
           <div class="col-start-1 row-start-2 w-full">
-            <img src="temp-asset/our-business/kiri-4.svg" alt="" />
+            <img src="temp-asset/our-business/kiri-4.svg" class="w-full h-full" alt="" />
           </div>
           <div class="row-span-2 col-start-2 row-start-1 background-OB-kanan-2 pt-20">
-            <div class="flex justify-end items-end gap-6 flex-col text-end pr-[46px] pl-[71px]">
+            <div class="flex sm:justify-end justify-center sm:items-end items-center gap-6 flex-col sm:text-end text-center sm:pr-[46px] sm:pl-[71px] sm:px-0 px-4">
               <img src="temp-asset/static-asset/tetra-logo.png" class="" alt="" />
               <h1 class="text-black text-[36px] font-outfitSemiBold">PT. Taman Teknologi Nusantara</h1>
               <p class="text-black font-outfitRegular text-[20px]">
@@ -152,15 +152,15 @@
             <img src="temp-asset/our-business/kanan-2.png" alt="" />
           </div>
         </div>
-        <div class="grid grid-rows-1 gap-0 grid-cols-2 justify-center w-full">
-          <div class="row-span-1">
-            <img src="temp-asset/our-business/kiri-5.svg" alt="" />
+        <div class="grid grid-rows-1 gap-0 sm:grid-cols-2 grid-cols-1 justify-center w-full">
+          <div class="row-span-1 w-full h-full">
+            <img src="temp-asset/our-business/kiri-5.svg" class="w-full h-full" alt="" />
           </div>
-          <div class="col-start-1 row-start-2 w-full">
-            <img src="temp-asset/our-business/kiri-6.svg" alt="" />
+          <div class="col-start-1 row-start-2 w-full h-full">
+            <img src="temp-asset/our-business/kiri-6.svg" class="w-full h-full" alt="" />
           </div>
           <div class="row-span-2 col-start-2 row-start-1 background-OB-kanan-3 pt-20">
-            <div class="flex justify-end items-end gap-6 flex-col text-end pr-[46px] pl-[71px]">
+            <div class="flex sm:justify-end justify-center sm:items-end items-center gap-6 flex-col sm:text-end text-center sm:pr-[46px] sm:pl-[71px] sm:px-0 px-4">
               <img src="temp-asset/static-asset/xtart-logo.png" class="" alt="" />
               <h1 class="text-black text-[36px] font-outfitSemiBold">XTart</h1>
               <p class="text-black font-outfitRegular text-[20px]">
@@ -188,4 +188,5 @@
   </body>
   <script src="js/contact-us.js"></script>
   <script src="js/nav.js"></script>
+  <script src="js/header.js"></script>
 </html>
