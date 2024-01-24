@@ -3,17 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Joindo | About Us</title>
+    <title>Joindo | Homepage</title>
     <link rel="stylesheet" href="css/output.css" />
   </head>
-  <body class="background-homepage">
+  <body class="background-about-us">
     <header class="transition-all ease-in-out duration-300 absolute top-0 inset-x-0 z-50 bg-transparent">
       <div class="flex justify-between container">
-        <div>
-          <a href="index.html">
-            <img src="temp-asset/static-asset/jeh-logo.png" alt="" />
-          </a>
-        </div>
+        <div></div>
         <div class="sm:flex hidden justify-between gap-10 items-center">
           <a href="index.html">
             <h3 class="font-outfitRegular text-white text-[20px] text-shadow hover:font-outfitSemiBold homeActive">Home</h3>
@@ -65,7 +61,7 @@
         </div>
 
         <div id="popup" class="popup hidden fixed top-0 left-0 w-full h-full z-[100]">
-          <div class="bg-white rounded-lg container fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[65%] border-4 border-l-4 border-s border-joindo-blue-navy px-16">
+          <div class="bg-white rounded-lg container fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[65%] border-4 border-joindo-blue-navy px-16">
             <h1 class="text-[72px] font-outfitSemiBold text-joindo-blue-navy text-center py-7">Contact Us</h1>
             <button onclick="closePopup(0)" class="absolute top-[8%]">
               <div class="bg-joindo-blue-navy px-2 rounded-lg">
@@ -86,7 +82,7 @@
           </div>
         </div>
         <div id="popupTerimaKasih" class="popup hidden fixed top-0 left-0 w-full h-full z-[100]">
-          <div class="bg-white rounded-lg container fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[65%] border-4 border-l-4 border-s border-joindo-blue-navy px-16">
+          <div class="bg-white rounded-lg container fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[65%] border-4 border-joindo-blue-navy px-16">
             <h1 class="text-[72px] font-outfitSemiBold text-joindo-blue-navy text-center py-7">Terima Kasih!</h1>
             <h3 class="text-[20px] font-outfitRegular text-joindo-blue-navy">Your message has been submited!</h3>
             <button onclick="closePopupTerimaKasih()" class="absolute top-[8%]">
@@ -98,7 +94,127 @@
         </div>
       </div>
     </header>
-
+    <section class="banner__aboutus">
+      <div class="container flex justify-center items-center gap-10 sm:flex-row flex-col">
+        <div class="flex flex-col sm:gap-6 gap-12 sm:w-[60%] w-full">
+          <h1 class="text-shadow text-white font-outfitSemiBold text-[72px] sm:text-left text-center">About Us</h1>
+          <h3 class="text-white sm:text-left text-justify text-[24px] font-outfitSemiBold pt-6">
+            Welcome to <span class="text-joindo-blue-navy">PT. Joindo Eka Handal</span>, your trusted partner in innovation and education. Established in 2016, we initially began our journey by distributing cutting-edge electronic products, including smartphone and accessories <br />
+            <br />
+            In 2017 , we recognized the transformative power of education and redirected our focus towards providing innovative educational technology and STEAM (Science, Technology , Engineering, Art and Mathematics ) products. <br />
+            <br />
+            At PT.Joindo Eka Handal we are dedicated to shaping the future of learning through our commitment to excellence and passion for educational advancement.
+          </h3>
+        </div>
+        <div class="sm:w-[30%] w-full sm:block hidden"><img src="temp-asset/about-us/banner.png" alt="" /></div>
+      </div>
+    </section>
+    <section class="company__journey">
+      <div class="container flex flex-col gap-10 relative">
+        <div class="flex justify-between gap-10 sm:flex-row flex-col">
+          <div class="sm:w-[40%] w-full">
+            <h1 class="text-white font-outfitBold text-[28px] text-shadow sm:text-end text-center">PT.Joindo Eka Handal Established</h1>
+            <h3 class="text-white sm:text-end text-justify text-[20px] font-outfitRegular text-shadow pt-6">As an authorized distributor for LENOVO and SAMSUNG mobile phones, PT. Joindo Eka Handal has evolved significantly.</h3>
+          </div>
+          <div class="flex flex-col gap-6 text-center items-center">
+            <h3 class="text-white font-outfitBold text-[72px] text-shadow text-end">20</h3>
+            <h3 class="text-white font-outfitBold text-[72px] text-shadow text-end">16</h3>
+          </div>
+          <div class="sm:w-[50%] w-full flex justify-end">
+            <img src="temp-asset/about-us/kanan-1.png" alt="" />
+          </div>
+        </div>
+        <div class="flex justify-between gap-10 sm:flex-row flex-col">
+          <div class="sm:w-[40%] w-full">
+            <h1 class="text-white font-outfitBold text-[28px] text-shadow sm:text-end text-center">Main Distributor Makeblock for Indonesia</h1>
+            <h3 class="text-white sm:text-end text-justify text-[20px] font-outfitRegular text-shadow pt-6">We took a major stride by becoming the main distributor for MAKEBLOCK (Global STEAM education provider), a pivotal move towards fostering STEAM Education.</h3>
+          </div>
+          <div class="flex flex-col gap-6 text-center items-center">
+            <h3 class="text-white font-outfitBold text-[72px] text-shadow text-end">20</h3>
+            <h3 class="text-white font-outfitBold text-[72px] text-shadow text-end">17</h3>
+          </div>
+          <div class="grid sm:sm:grid-cols-2 grid-cols-1 grid-cols-1 sm:w-[50%] w-full">
+            <img src="temp-asset/about-us/kanan-2.svg" class="" alt="" />
+            <img src="temp-asset/about-us/kanan-3.svg" class="sm:w-fit w-full" alt="" />
+          </div>
+        </div>
+        <div class="flex justify-between gap-10 sm:flex-row flex-col">
+          <div class="sm:w-[40%] w-full">
+            <h1 class="text-white font-outfitBold text-[28px] text-shadow sm:text-end text-center">The First STEAM integrator in School Curricula & First MAKEX Robotic</h1>
+            <h3 class="text-white sm:text-end text-justify text-[20px] font-outfitRegular text-shadow pt-6">
+              We proudly pioneered the integration of robotics into school curricula, making a groundbreaking achievement in Indonesia’s educational landscape. This commitment to STEAM education has persisted, making us the first STEAM solution provider in the country.
+            </h3>
+            <h3 class="text-white sm:text-end text-justify text-[20px] font-outfitRegular text-shadow pt-6">
+              We proudly pioneered the integration of robotics into school curricula, making a groundbreaking achievement in Indonesia’s educational landscape. This commitment to STEAM education has persisted, making us the first STEAM solution provider in the country.
+            </h3>
+          </div>
+          <div class="flex flex-col gap-6 text-center items-center">
+            <h3 class="text-white font-outfitBold text-[72px] text-shadow text-end">20</h3>
+            <h3 class="text-white font-outfitBold text-[72px] text-shadow text-end">18</h3>
+          </div>
+          <div class="grid sm:grid-cols-2 grid-cols-1 sm:w-[50%] w-full">
+            <img src="temp-asset/about-us/kanan-5.svg" class="w-full" alt="" />
+            <img src="temp-asset/about-us/kanan-4.svg" class="w-full" alt="" />
+            <img src="temp-asset/about-us/kanan-6.svg" class="w-full" alt="" />
+            <img src="temp-asset/about-us/kanan-7.svg" class="w-full" alt="" />
+          </div>
+        </div>
+        <div class="flex justify-between gap-10 sm:flex-row flex-col">
+          <div class="sm:w-[40%] w-full">
+            <h1 class="text-white font-outfitBold text-[28px] text-shadow sm:text-end text-center">UNICAMP</h1>
+            <h3 class="text-white sm:text-end text-justify text-[20px] font-outfitRegular text-shadow pt-6">
+              PT.Joindo Eka Handal took a significant step by launching the inaugural UNICAMP (Teachers Development Bootcamp), a pioneering STEAM Teachers training camp in Indonesia. Over two nights and three days , we welcomed over 40 educators, providing them with an immersive experience in the
+              latest educational technology and curriculum.
+            </h3>
+          </div>
+          <div class="flex flex-col gap-6 text-center items-center">
+            <h3 class="text-white font-outfitBold text-[72px] text-shadow text-end">20</h3>
+            <h3 class="text-white font-outfitBold text-[72px] text-shadow text-end">22</h3>
+          </div>
+          <div class="grid sm:grid-cols-2 grid-cols-1 sm:w-[50%] w-full">
+            <img src="temp-asset/about-us/kanan-9.svg" class="w-full" alt="" />
+            <img src="temp-asset/about-us/kanan-8.svg" class="w-full" alt="" />
+          </div>
+        </div>
+        <div class="flex justify-between gap-10 sm:flex-row flex-col">
+          <div class="sm:w-[40%] w-full">
+            <h1 class="text-white font-outfitBold text-[28px] text-shadow sm:text-end text-center">TETRA & CYBERSPACE</h1>
+            <h3 class="text-white sm:text-end text-justify text-[20px] font-outfitRegular text-shadow pt-6">
+              Building on the success of the first UNICAMP, we expanded our impact in 2023 by hosting the second edition. This time , more than 60 educators from various cities across Indonesia joined us  for an enriching and collaborative learning experience. At PT. Joindo Eka Handal, we remain
+              committed to empowering educators and advancing STEAM Education through initiatives like UNICAMP.
+            </h3>
+            <h3 class="text-white sm:text-end text-justify text-[20px] font-outfitRegular text-shadow pt-6">
+              In response to our continued growth, PT.Joindo Eka Handal strategically expanded its footprint by establishing two subsidiaries. PT.Taman Teknologi Nusantara (TETRA) was created with dedicated focus on distribution and teachers training, ensuring a comprehensive approach to delivering
+              our innovative educational solutions.
+            </h3>
+            <h3 class="text-white sm:text-end text-justify text-[20px] font-outfitRegular text-shadow pt-6">
+              Simultaneously, PT.Lab Inovasi Teknologi (Cyberspace) emerged as a subsidiary with a distinct mission - to serve as a Technology Education Course Center and provider of extracurricular program activities for schools.
+            </h3>
+          </div>
+          <div class="flex flex-col gap-6 text-center items-center">
+            <h3 class="text-white font-outfitBold text-[72px] text-shadow text-end">20</h3>
+            <h3 class="text-white font-outfitBold text-[72px] text-shadow text-end">23</h3>
+          </div>
+          <div class="flex flex-col sm:w-[50%] w-full">
+            <div class="flex sm:flex-row flex-col ">
+              <img src="temp-asset/about-us/kanan-10.svg" class="w-full" alt="" />
+              <img src="temp-asset/about-us/kanan-11.svg" class="w-full" alt="" />
+            </div>
+            <div class="flex sm:flex-row flex-col">
+              <img src="temp-asset/about-us/kanan-12.svg" class="w-full" alt="" />
+              <img src="temp-asset/about-us/kanan-13.svg" class="w-full" alt="" />
+            </div>
+            <div class="flex sm:flex-row flex-col">
+              <img src="temp-asset/about-us/kanan-14.svg" class="w-full" alt="" />
+              <img src="temp-asset/about-us/kanan-15.svg" class="w-full" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="absolute sm:block hidden bottom-0 left-1/2 -translate-x-1/2">
+          <img src="temp-asset/about-us/absolute.svg" alt="" />
+        </div>
+      </div>
+    </section>
     <footer class="bg-joindo-blue-navy py-8">
       <div class="container">
         <h1 class="text-white text-shadow sm:text-[32px] text-[28px] font-outfitSemiBold sm:text-left text-center">PT. Joindo Eka Handal</h1>
@@ -107,5 +223,6 @@
     </footer>
   </body>
   <script src="js/contact-us.js"></script>
+  <script src="js/header.js"></script>
   <script src="js/nav.js"></script>
 </html>

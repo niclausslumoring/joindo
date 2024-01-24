@@ -175,6 +175,9 @@
 .homepage__section {
   margin-block: 0 !important;
 }
+.background-about-us {
+  background: linear-gradient(270deg, #c4d8ff 0%, #3e5580 100%);
+}
 /*Homepage css */
 
 /* vanila css end*/
