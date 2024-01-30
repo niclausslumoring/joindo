@@ -798,6 +798,10 @@ hr {
   width: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .origin-bottom-right {
   transform-origin: bottom right;
 }
