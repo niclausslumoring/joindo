@@ -38,7 +38,7 @@
           <span class="w-9 h-1 rounded-full bg-white transition-all origin-bottom-right ease-in-out duration-300"></span>
         </button>
 
-        <button class="hidden burger-menu-close z-[120] fixed right-0 top-0" onclick="closeBurgerPopup()">
+        <button class="hidden burger-menu-close z-[120] fixed right-0 top-0 left-0]" onclick="closeBurgerPopup()">
           <div>
             <img src="temp-asset/static-asset/close.svg" class="w-12" alt="" />
           </div>
@@ -66,13 +66,13 @@
 
         <div id="popup" class="popup hidden fixed top-0 left-0 w-full h-full z-[100]">
           <div class="bg-white rounded-lg container fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90%] md:w-[65%] border-4 border-joindo-blue-navy px-16">
-            <h1 class="text-[72px] font-outfitSemiBold text-joindo-blue-navy text-center py-7">Contact Us</h1>
-            <button onclick="closePopup(0)" class="absolute top-[8%]">
+            <h1 class="sm:text-[72px] text-[48px] sm:leading-none leading-normal font-outfitSemiBold text-joindo-blue-navy text-center py-7">Contact Us</h1>
+            <button onclick="closePopup(0)" class="absolute sm:top-[8%] top-[9%] sm:left-[8%] left-[10%]">
               <div class="bg-joindo-blue-navy px-2 rounded-lg">
                 <h1 class="text-white text-[28px] font-outfitRegular"><</h1>
               </div>
             </button>
-            <form action="https://api.web3forms.com/submit" class="flex flex-col mt-7 justify-center gap-7" onsubmit="return checkForm()" method="POST">
+            <form action="https://api.web3forms.com/submit" class="flex flex-col mt-7 justify-center gap-7" onsubmit="return checkForm()">
               <input type="hidden" name="access_key" value="75e00f5b-c99a-4401-aae6-d73eb8ce29f7" />
               <input type="text" id="fname" name="firstname" placeholder="Nama.." class="border rounded-lg py-3 pl-3 border-joindo-blue-navy text-joindo-blue-navy" />
               <input type="text" id="email" name="email" placeholder="Email.." class="border rounded-lg py-3 pl-3 border-joindo-blue-navy text-joindo-blue-navy" />
@@ -111,9 +111,9 @@
             <h1 class="font-outfitSemiBold text-joindo-blue-navy sm:text-[72px] text-[54px] sm:leading-none leading-tight text-shadow sm:text-left text-center">Our Business Unit</h1>
             <p class="text-joindo-blue-navy text-[20px] font-outfitRegular sm:mt-10 mt-4 sm:text-left text-center">Our programs are a fusion of technology, creativity, and physical wellness, providing students with a diverse set of skills that will propel them into the future.</p>
           </div>
-          <div class="border border-shadow flex justify-center items-center flex-col px-8 bg-white rounded-lg pb-[110px] pt-14 h-[70%]">
+          <div class="sm:mt-0 mt-6 border border-shadow flex justify-center items-center flex-col px-8 bg-white rounded-lg pb-[110px] sm:pt-14 pt-10 h-[70%]">
             <img src="temp-asset/static-asset/tetra-logo.png" alt="" />
-            <h1 class="text-joindo-blue-navy font-outfitSemiBold text-[28px] sm:text-left text-center">PT. Taman Teknologi Nusantara</h1>
+            <h1 class="text-joindo-blue-navy font-outfitSemiBold sm:pt-0 pt-4 text-[28px] sm:text-left text-center">PT. Taman Teknologi Nusantara</h1>
             <p class="text-joindo-blue-navy font-outfitRegular text-[20px] mt-6 text-center">
               Makeblock program offers students an immersive experience in the realms of Science, Technology, Engineering, Arts, and Mathematics (STEAM). Through hands-on projects, students delve into the fascinating world of robotics, coding, and STEAM education.
             </p>

@@ -684,6 +684,54 @@ hr {
   top: 8%;
 }
 
+.-left-0 {
+  left: -0px;
+}
+
+.-left-\[10\%\] {
+  left: -10%;
+}
+
+.-left-\[1\%\] {
+  left: -1%;
+}
+
+.left-\[10\%\] {
+  left: 10%;
+}
+
+.top-\[10\%\] {
+  top: 10%;
+}
+
+.top-\[15\%\] {
+  top: 15%;
+}
+
+.top-\[6\%\] {
+  top: 6%;
+}
+
+.top-\[7\%\] {
+  top: 7%;
+}
+
+.top-\[\%\] {
+  top: %;
+}
+
+.top-\[9\%\] {
+  top: 9%;
+}
+
+.left-\[20\%\] {
+  left: 20%;
+}
+
+.left-\[8\%\] {
+  left: 8%;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -777,6 +825,14 @@ hr {
   height: 100%;
 }
 
+.h-\[194px\] {
+  height: 194px;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -798,8 +854,8 @@ hr {
   width: 100%;
 }
 
-.w-1\/2 {
-  width: 50%;
+.w-auto {
+  width: auto;
 }
 
 .origin-bottom-right {
@@ -936,6 +992,11 @@ hr {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1006,6 +1067,11 @@ hr {
   padding-bottom: 14px;
 }
 
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -1060,6 +1126,10 @@ hr {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .text-left {
@@ -1126,8 +1196,20 @@ hr {
   font-size: 72px;
 }
 
+.text-\[48px\] {
+  font-size: 48px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
 .leading-tight {
   line-height: 1.25;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .text-black {
@@ -1450,8 +1532,24 @@ h6 {
     top: -6%;
   }
 
+  .sm\:left-0 {
+    left: 0px;
+  }
+
+  .sm\:top-\[8\%\] {
+    top: 8%;
+  }
+
+  .sm\:left-\[8\%\] {
+    left: 8%;
+  }
+
   .sm\:mt-10 {
     margin-top: 2.5rem;
+  }
+
+  .sm\:mt-0 {
+    margin-top: 0px;
   }
 
   .sm\:block {
@@ -1525,6 +1623,11 @@ h6 {
     padding-bottom: 2.5rem;
   }
 
+  .sm\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
   .sm\:pb-32 {
     padding-bottom: 8rem;
   }
@@ -1547,6 +1650,14 @@ h6 {
 
   .sm\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .sm\:pt-14 {
+    padding-top: 3.5rem;
+  }
+
+  .sm\:pt-0 {
+    padding-top: 0px;
   }
 
   .sm\:text-left {
